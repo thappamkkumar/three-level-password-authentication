@@ -1,0 +1,132 @@
+*
+{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+body
+{
+	padding:0px;
+	margin:0px;
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+
+.main_container
+{
+	width:100%;
+	min-height:100%;
+	position:relative;
+	overflow:auto;
+	/background-image:url(../Image/security5.jpg);
+	/background-position:center;
+	/background-size:100%;
+	/background-repeat:no-repeat;
+}
+.container
+{
+	width:90%;
+	height:auto;
+	
+	margin:auto;
+	padding-top:10px;padding-bottom:60px;padding-left:10px;padding-right:10px;
+}
+.main_heading
+{
+	width:100%;
+	height:auto;
+	color:#000;
+	font-size:50px;
+	margin:auto;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+}
+.image
+{
+	width:100%;
+	height:75%;
+	margin:auto;
+}
+.para
+{
+	width:100%;
+	height:auto;
+	color:#000;
+	font-size:20px;
+	margin:auto;
+	padding-top:40px;
+}
+.sub_heading
+{
+	width:100%;
+	height:auto;
+	color:#000;
+	font-size:25px;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin:auto;
+}
+ul, ol
+{
+	width:100%;
+	height:auto;
+	font-size:20px;
+	margin:auto;
+}
+li
+{
+		padding-top:2px;padding-bottom:2px;
+}
+span
+{
+	font-weight:bold;
+}
+
+@media only screen and (max-width: 800px)
+{
+
+	.container
+	{
+		width:100%;
+		 
+	}
+	.main_heading
+	{
+		font-size:40px;
+	}
+	.para
+	{
+		font-size:16px;
+	}
+	.sub_heading
+	{
+		font-size:20px;
+	}
+	ul, ol
+	{
+		font-size:16px;
+	}
+}
+@media only screen and (max-width: 500px)
+{
+
+	.container
+	{
+		margin-top:50px;
+	}
+	.main_heading
+	{
+		font-size:30px;
+	}
+	 
+}
+@media only screen and (max-width: 300px)
+{
+
+	.container
+	{
+		margin-top:80px;
+	}
+}
